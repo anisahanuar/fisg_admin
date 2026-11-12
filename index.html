@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FISG Admin</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7f5;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: white;
+            padding: 45px 35px;
+            border-radius: 15px;
+            text-align: center;
+            width: 90%;
+            max-width: 420px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        h1 {
+            color: #08763e;
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: #68766d;
+            font-size: 14px;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #08763e;
+            color: white;
+            text-decoration: none;
+            padding: 13px 25px;
+            border-radius: 7px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .btn:hover {
+            background: #065c30;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>FISG Admin</h1>
+
+        <p>
+            Welcome to the FISG Administration Portal.
+            Please log in to access the admin dashboard.
+        </p>
+
+        <a href="admin_login.php" class="btn">
+            Admin Login
+        </a>
+
+    </div>
+
+</body>
+</html>
